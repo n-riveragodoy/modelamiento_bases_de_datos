@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB7CD34-1C9E-68C1-637B-3E8BFC17F920" name="DIRECCION">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 16:56:28 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_direccion" id="79774069-B071-F096-31F4-03568D1B622D">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 16:56:40 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="B8C305D1-A8DC-DE0D-8A05-924C2FFF3527">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 16:57:09 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_calle" id="6F3346A6-B85D-816B-1BB8-5D50DF42BAD2">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 16:57:49 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="EF3707F0-9ED3-DEF5-7134-935377BEE56C">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:24:26 UTC</createdTime>
+<generatorID>185CC152-500C-4F44-A973-D1F56A9FAFC1</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<referedAttribute>52816EF6-32A4-50D8-05F3-4D473AFF2D0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F44AA184-8D94-B422-E7CD-A0CAB9B517C4" name="DIRECCION PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 16:57:06 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79774069-B071-F096-31F4-03568D1B622D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

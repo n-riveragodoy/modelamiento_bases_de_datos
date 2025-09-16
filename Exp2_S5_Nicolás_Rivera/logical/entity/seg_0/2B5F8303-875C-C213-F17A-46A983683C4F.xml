@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B5F8303-875C-C213-F17A-46A983683C4F" name="ESPECIALIDAD">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:27:11 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_especialidad" id="CBE72DA8-E0C1-2C1B-FD7B-E608336AB405">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:27:27 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="15C9D4BE-B5B4-A078-54F9-A28E3A77511B">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:27:40 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DDA88459-C6D0-9F00-2C77-F3E1ECB7B0DF" name="ESPECIALIDAD PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:27:38 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBE72DA8-E0C1-2C1B-FD7B-E608336AB405</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

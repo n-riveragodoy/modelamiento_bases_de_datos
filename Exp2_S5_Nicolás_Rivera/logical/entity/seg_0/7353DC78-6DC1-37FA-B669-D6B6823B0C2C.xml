@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7353DC78-6DC1-37FA-B669-D6B6823B0C2C" name="PAGO">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:39:16 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pago" id="5DCDAA07-E281-FB0C-31CD-AE11B39CB12E">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:39:32 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_atencion" id="C7D3116A-6A83-EFE7-B56D-57A28B51621B">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:58:21 UTC</createdTime>
+<generatorID>9B00CBD4-4345-0FE9-B53C-0C1FAC127828</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="true"/>
+</engineerTo>
+<referedAttribute>FFED75A2-65F1-4922-9202-B6A0EEF08FE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6050D44B-F193-2562-4191-EBD71A1FA885" name="PAGO PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:39:41 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="479F9C62-D3B0-7A2A-E200-DF329A31F2EB" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5DCDAA07-E281-FB0C-31CD-AE11B39CB12E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

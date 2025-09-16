@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1F2BC749-DF1B-7771-0F6F-24B65534F478" containerWithKeyObject="C4A64E65-CC4A-4BDC-1321-31EFF8B0EE5A" localFKIndex="50C0A1CC-8DB2-D802-F858-2C4AAF735575" name="COMUNA_REGION_FK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>7C74FAC2-C05F-68B2-EC18-376F7EB351E3</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<referredTableLongName>REGION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D5BC7540-69F0-15F4-CF2F-5704D7520A23</referredTableID>
+<keyObject>24A19965-7380-9657-6397-A34EA85C5807</keyObject>
+<referredKeyID>24A19965-7380-9657-6397-A34EA85C5807</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

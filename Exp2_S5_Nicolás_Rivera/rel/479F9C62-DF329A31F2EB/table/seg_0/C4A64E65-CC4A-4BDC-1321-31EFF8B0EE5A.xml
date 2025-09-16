@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4A64E65-CC4A-4BDC-1321-31EFF8B0EE5A" name="COMUNA">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>98A61622-6E77-D55A-498B-69E4F922CCE8</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="ABADF54A-3611-6978-7406-C182A93A239A">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>52816EF6-32A4-50D8-05F3-4D473AFF2D0C</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="5D02D4E0-9ECB-1567-5815-04C0DD920F34">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>1432E96C-8953-2264-8768-D6AE227D55BA</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id_region" id="52C4396A-4A77-7B1C-8A0E-67A414730A62">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>51C1635C-BC11-0025-99AD-2170DCA23904</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F2BC749-DF1B-7771-0F6F-24B65534F478" referredColumn="706E309A-55B0-A0AE-7223-D34698A47FFC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C545B591-7A04-04EB-49F3-D875F52CA4E0" name="COMUNA_PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>7A764EDA-3CE8-446D-CAED-140764DCB619</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABADF54A-3611-6978-7406-C182A93A239A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50C0A1CC-8DB2-D802-F858-2C4AAF735575" name="COMUNA_REGION_FK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>7C74FAC2-C05F-68B2-EC18-376F7EB351E3</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52C4396A-4A77-7B1C-8A0E-67A414730A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

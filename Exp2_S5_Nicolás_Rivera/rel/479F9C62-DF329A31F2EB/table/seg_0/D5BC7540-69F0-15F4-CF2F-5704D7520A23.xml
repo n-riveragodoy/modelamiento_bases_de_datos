@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5BC7540-69F0-15F4-CF2F-5704D7520A23" name="REGION">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>127CE664-FA37-EA69-E718-A1EB5939A2B5</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_region" id="706E309A-55B0-A0AE-7223-D34698A47FFC">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>7E2A033D-9745-8A5D-627F-CA5556F60E5A</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="169D4984-F78F-3A20-13C2-EB9A56D850E9">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>1C1F345F-76E0-058B-CE48-E1BDA9C08A06</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24A19965-7380-9657-6397-A34EA85C5807" name="REGION_PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-15 17:22:08 UTC</createdTime>
+<generatorID>AF4114A8-B40D-BF53-5B31-493C6746A33D</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="706E309A-55B0-A0AE-7223-D34698A47FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

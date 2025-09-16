@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="572CAFEB-6D2D-FA9A-85E7-0EA3EF43BFD3" name="ATENCION_DIAGNOSTICO">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<ordsAlias>relation_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ATENCION_MEDICA_id_atencion" id="3C67062E-6DF4-CD0B-5CD0-7CD30626D2CF">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97509074-DD90-D671-43BF-E7E4D21E8C4C" referredColumn="E5B87BD3-B41E-0C9E-3467-794CE9E9518B"/>
+</associations>
+</Column>
+<Column name="DIAGNOSTICO_id_diagnostico" id="208C07E9-9649-F46D-2E75-B2A09D7C1CDB">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59900A40-26FD-5167-5961-756B0E644365" referredColumn="0103A8C2-4D93-8B2F-DEC8-2D8DF9881725"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="203E156D-07C7-AB5A-F670-90C33D3A5EAF" name="ATENCION_DIAGNOSTICO">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C67062E-6DF4-CD0B-5CD0-7CD30626D2CF"/>
+<colUsage columnID="208C07E9-9649-F46D-2E75-B2A09D7C1CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B02C000C-9960-C9CC-6BF6-7E14F5910798" name="ATENCION_MEDICA_FKv1">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>931CF996-C0C9-6E84-7987-B1B42CBA8437</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C67062E-6DF4-CD0B-5CD0-7CD30626D2CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="167BF700-3967-0DE3-BD98-96D96D1907D6" name="DIAGNOSTICO_FK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>931CF996-C0C9-6E84-7987-B1B42CBA8437</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208C07E9-9649-F46D-2E75-B2A09D7C1CDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

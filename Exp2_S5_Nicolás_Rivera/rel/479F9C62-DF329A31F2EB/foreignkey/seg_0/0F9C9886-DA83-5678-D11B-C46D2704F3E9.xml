@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0F9C9886-DA83-5678-D11B-C46D2704F3E9" containerWithKeyObject="06251FA5-9FFA-CF29-BD6D-D2EB4ABDFA83" localFKIndex="FC75C8C4-370E-9A15-6A6F-8D5678EC68D0" name="SOLICITUD_EXAMEN_ATENCION_MEDICA_FK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>0C11BA44-E5AF-6285-396F-E579FFB1813B</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<referredTableLongName>ATENCION_MEDICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5CAFD13-A21A-5275-7095-8B1ECEC8D180</referredTableID>
+<keyObject>22320E5E-1FB4-F2D8-DF9B-429EDAA72D77</keyObject>
+<referredKeyID>22320E5E-1FB4-F2D8-DF9B-429EDAA72D77</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_atencion</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

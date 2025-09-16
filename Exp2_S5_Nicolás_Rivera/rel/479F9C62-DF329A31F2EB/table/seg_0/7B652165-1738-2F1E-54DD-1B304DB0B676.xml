@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B652165-1738-2F1E-54DD-1B304DB0B676" name="INSTITUCION_SALUD">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:00 UTC</createdTime>
+<generatorID>63066D15-11AF-7F00-A9D7-53DBFA6423F0</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_institucion" id="8C9FE1B3-37DC-8AB4-2F4E-B45E3A980AB5">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:00 UTC</createdTime>
+<generatorID>DCB5F3CE-749B-E57F-1FCC-6880526ED49A</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1719DB78-2C95-0E6F-7092-5B5FC7DDC411">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:00 UTC</createdTime>
+<generatorID>90B0D98A-4FB9-AEA6-E1B8-25978C937503</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="33F745C0-EF07-8DCC-F215-F764BD67ADF3">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:00 UTC</createdTime>
+<generatorID>184E5B99-3569-F5E3-F799-2C63C4D8CD8E</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E00AE78F-A2EE-A8FE-E0E1-EB69A2F74CFB" name="INSTITUCION_SALUD_PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:00 UTC</createdTime>
+<generatorID>9F5E1E77-F04B-9CD1-2733-73007F9A948B</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C9FE1B3-37DC-8AB4-2F4E-B45E3A980AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

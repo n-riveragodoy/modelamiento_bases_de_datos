@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F5CC96A-9394-FB32-0914-C070DEB80B8F" name="PAGO">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>7353DC78-6DC1-37FA-B669-D6B6823B0C2C</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pago" id="F9000DD5-9D80-4803-0038-AA8AF0696AE3">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>5DCDAA07-E281-FB0C-31CD-AE11B39CB12E</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ATENCION_MEDICA_id_atencion" id="3DEF730C-FA91-4904-5CE2-FD8320318540">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>C7D3116A-6A83-EFE7-B56D-57A28B51621B</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A36E2F94-627D-8CAA-B7CD-FF1DE3738D7F" referredColumn="E5B87BD3-B41E-0C9E-3467-794CE9E9518B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D13DB6FA-A849-4D4B-9E2D-D9DA897582D2" name="PAGO_PK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<generatorID>6050D44B-F193-2562-4191-EBD71A1FA885</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9000DD5-9D80-4803-0038-AA8AF0696AE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="510E165E-73CF-AF70-8FD5-6215FB86165D" name="PAGO__IDX">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:01 UTC</createdTime>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9B00CBD4-4345-0FE9-B53C-0C1FAC127828</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3DEF730C-FA91-4904-5CE2-FD8320318540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44BB1A74-1F4E-C486-5FC0-BC0769C01AE6" name="PAGO_ATENCION_MEDICA_FK">
+<createdBy>nrivera</createdBy>
+<createdTime>2025-09-16 01:52:39 UTC</createdTime>
+<generatorID>9B00CBD4-4345-0FE9-B53C-0C1FAC127828</generatorID>
+<ownerDesignName>Sumativa_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DEF730C-FA91-4904-5CE2-FD8320318540"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
